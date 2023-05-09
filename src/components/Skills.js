@@ -3,7 +3,7 @@
 const Skills = () =>{
     return(
         <>
-         <section data-aos="zoom-in-down" data-aos-duration="1000" id="Skills">
+         <section id="Skills">
             <div class="heading-top">
                 <h3 class="section-subtitle">My Expertise</h3>
                 <h1 class="section-title">Skills</h1>

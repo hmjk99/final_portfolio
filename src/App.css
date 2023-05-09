@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 :root{
   --main-color: #4f416e;
   --lighter-color: rgb(103, 159, 232);
@@ -36,6 +37,7 @@ html{
 body{
   min-height: 100vh;
   background: rgb(181, 218, 255);
+  font-family: 'Poppins', sans-serif;
 }
 .icon{
   background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
@@ -87,16 +89,19 @@ body{
 }
 .nav-list a{
   text-decoration: none;
-  color: rgb(87, 170, 248);;
+  color: rgb(14, 134, 245);
   cursor: pointer;
 }
 .nav-list a:hover{
   color: var(--lighter-color);
 }
 #name{
-  color: rgb(87, 170, 248);
+  color: rgb(14, 134, 245);
   text-decoration: none;
   font-weight: var(--semi-bold);
+}
+.bx-menu, .bx-x-circle{
+  color: rgb(14, 134, 245);
 }
 header{
   width: 100%;
@@ -135,10 +140,6 @@ header{
 .nav-icon{
   cursor: pointer;
 }
-.moon-icon{
-  cursor: pointer;
-}
-
 .Nav{
   display: flex;
   flex-direction: column;
@@ -181,7 +182,6 @@ a{
 }
 #sub-text{
   margin: 0.4rem 0;
-  color: var(--main-color);
   font-size: 1.8rem;
   text-align: center;
 }
@@ -197,14 +197,12 @@ a{
   object-fit: cover;
 }
 #home-content h1{
-  color: var(--main-color);
   margin-bottom: 7px;
   font-size: 1.85rem;
   font-weight: bolder;
 }
 #home-content h3{
   margin: 0;
-  color: var(--text-light);
   font-size: var(--h3-font-size);
 }
 #arrow-icon{
@@ -236,7 +234,6 @@ a{
 #hashtags li{
   margin: 0.1rem 0.3rem;
   font-size: 1.4rem;
-  color: var(--text-light)
 }
 .text.sec-text:before{
   content: "";
@@ -353,6 +350,9 @@ a{
   }
 }
 /* ========================================== About Section ========================================== */
+#About{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 .about-content{
   display: flex;
   flex-direction: column;
@@ -980,25 +980,16 @@ a{
       width: 50rem;
       padding: 0
   }
-  #Skills, #About{
-      width: 75rem
-  }
-  #Skills, #Projects{
+  #Home, #About, #Skills, #Projects{
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 80rem;
   }
-
-  body{
+  #root{
       display: flex;
       flex-direction: column;
       align-items: center;
-  }
-  #container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 75rem
   }
   #home-left, #home-right{
       display: flex;
