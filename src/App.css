@@ -38,6 +38,7 @@ body{
   min-height: 100vh;
   background: rgb(181, 218, 255);
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 .icon{
   background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
