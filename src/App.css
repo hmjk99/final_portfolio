@@ -444,17 +444,15 @@ a{
 .skills-info{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
 .skills-detail{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 7.5rem;
-  height: 3rem;
   margin: 1rem;
   border-radius: 10px;
-
 }
 @keyframes float1 {
   0% {
@@ -479,9 +477,10 @@ a{
   }
 }
 .skill-img{
-  width: 5rem;
-  height:5rem;
+  width: 4rem;
+  height:4rem;
   object-fit: contain;
+  margin:0.5rem
 }
 .js{
   animation-name: float1;
@@ -847,6 +846,10 @@ a{
   }
   .skills-info{
       margin-top: 1.5rem;
+  }
+  .skill-img{
+    width:5rem;
+    height:5rem
   }
   /* ------------- projects section ------- */
   .project-img, .project-descrip{
