@@ -378,7 +378,7 @@ a{
   font-size: var(--normal-font-size);
   color: var(--text-black);
   border-radius: 15px;
-  border: 2px solid rgb(162, 178, 227);
+  border: 2px solid var(--lighter-color);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -395,7 +395,7 @@ a{
   overflow: hidden;
   display: block;
   margin: 20px 30px;
-  border: 5px solid var(--lighter-color);
+  border: 3px solid var(--lighter-color);
 }
 #fun-fact h3{
   margin: 0.5rem 0 0;
@@ -424,7 +424,7 @@ a{
   margin: 2rem 1rem;
   padding: 1rem;
   background-color: white;
-  border: 2px solid rgb(162, 178, 227);
+  border: 2px solid var(--lighter-color);
 }
 .skills-icon{
   height: 40px;
@@ -581,7 +581,7 @@ a{
   height: 14rem;
   object-fit: cover;
   border-radius: .5rem;
-  border: 5px solid var(--lighter-color);
+  border: 3px solid white;
 }
 .project-img{
   position: relative;
@@ -595,11 +595,12 @@ a{
   align-items: center;
   text-align: center;
   width:18rem;
-  box-shadow: 5px 5px 8px 5px var(--box-shadow);
+  background-color: white;
   margin: 0 0 2rem;
   border-radius: 15px;
   color: var(--text-black);
-  padding: 1rem
+  padding: 1rem;
+  border: 2px solid var(--lighter-color);
 }
 .project-descrip h3{
   margin: 0.5rem;
@@ -658,7 +659,7 @@ a{
 
 /* --------------------------------------------- Contact Section ----------------------------------------------- */
 #content-inside{
-  background-color: var(--contact-content-color);
+  background-color: white;
   border-radius: 10px;
   margin: 1.5rem 1.7rem 2rem;
   height: 20rem;
@@ -677,19 +678,19 @@ a{
 #contact-content h1{
   font-size: 1.5rem;
   margin: 0 1.2rem;
-  color: var(--background-color);
+  color: var(--lighter-color)
 }
 #contact-content h3{
   font-size: var(--small-font-size);
   margin: 0 1.2rem;
-  color: var(--lightest-color);
+  color: var(--lighter-color);
   width: 80%;
   font-weight: 350;
 }
 .contact-button{
   margin: 0 1.2rem;
-  background-color: var(--background-color);
-  color:var(--main-color);
+  background-color: var(--lighter-color);
+  color:white;
   font-weight: 600;
   font-size:var(--h3-font-size);
   height: 3.5rem;
@@ -702,12 +703,6 @@ a{
   margin: 0.5rem 1.25rem;
   border-radius: 7px;
   border: none;
-}
-::placeholder{
-  color:#2f264e;
-  font-size: var(--normal-font-size);
-  font-family: 'Poppins', sans-serif;
-  padding-left: 3px;
 }
 .modal-info{
   height: 2.5rem;
@@ -730,15 +725,6 @@ a{
   justify-content: space-between;
 }
 #contact-img{
-  display: none;
-}
-#modal{
-  flex-direction: column;
-  background-color: var(--lighter-color);
-  border-radius: 15px;
-  position: fixed;
-  bottom: 10rem;
-  z-index: 1;
   display: none;
 }
 #Contact{
