@@ -6,9 +6,9 @@ const Contact = () =>{
     }
     return(
         <>
-         <section data-aos="zoom-in" data-aos-duration="1000" id="Contact">
-            <div class="heading-top">
-                <h1 class="section-title">Contact Me</h1>
+         <section id="Contact">
+            <div className="heading-top">
+                <h1 className="section-title">Contact Me</h1>
             </div>
             <div id="content-inside">
                 <div id="contact-content">
@@ -16,7 +16,7 @@ const Contact = () =>{
                     <h3>Do not hesitate and please reach out if you have any project in mind where my skills can help. Thank you.</h3>
                     <h3>Email: hmjk99@gmail.com</h3>
                     <div>
-                    <button onclick={sendEmail} class="contact-button open-modal">Contact Me</button>
+                    <button onclick={sendEmail} className="contact-button open-modal">Contact Me</button>
                     </div>
             </div>
             <img id="contact-img" src={img} alt=""/>
