@@ -2,6 +2,12 @@ body{
   min-height: 100vh;
   background: rgb(181, 218, 255);
 }
+.icon{
+  background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 /*  ============================================= nav menu =============================================  */
 
 .nav-list{
@@ -49,7 +55,6 @@ header{
   display: flex;
   align-items: center;
   background-color: white;
-  transition: .5s;
 }
 .close-icon{
   position: absolute;
@@ -82,12 +87,108 @@ header{
 a{
   text-decoration: none;
 }
+/* ===================================== Home Section ========================================= */
+.home-container{
+  position: absolute;
+  width:100%;
+  top: 10%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#home-title{
+  background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+#home-left, #home-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sub-text{
+  margin: 0.4rem 0;
+  color: var(--main-color);
+  font-size: 1.8rem;
+  text-align: center;
+}
+#img-div{
+  margin: 0 0 0.5rem;
+}
+#main-img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  object-fit: cover;
+}
+#home-content h1{
+  color: var(--main-color);
+  margin-bottom: 7px;
+  font-size: 1.85rem;
+  font-weight: bolder;
+}
+#home-content h3{
+  margin: 0;
+  color: var(--text-light);
+  font-size: var(--h3-font-size);
+}
+#arrow-icon{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#arrow-icon a{
+  cursor: pointer;
+}
+.links{
+  list-style-type: none;
+  display: flex;
+  padding: 0 0.2rem 1rem 0;
+}
+.links .bx{
+  margin: 0.3rem 0.7rem;
+  font-size: 2rem;
+}
+#hashtags{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin: 1rem 1.5rem
+}
+#hashtags li{
+  margin: 0.1rem 0.3rem;
+  font-size: 1.4rem;
+  color: var(--text-light)
+}
+/* .first-text{
+  position: relative;
+} */
+.text.sec-text:before{
+  content: "";
+  position:absolute;
+  top:0;
+  left:0;
+  /* height: 100%;
+  width: 100%; */
+  background-color: var(--background-color);
+  border-left: 2px solid var(--lighter-color);
+  animation: animate 4s steps(12) infinite;
+}
 
 .container-clouds{
   position: relative;
   overflow: hidden;
   width: 100%;
   height:100vh;
+  z-index: -100%;
 }
 .clouds{
   position: relative;
