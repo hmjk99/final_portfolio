@@ -90,7 +90,7 @@ body{
   text-decoration: none;
   color: white;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-weight: 500;
 }
 .nav-list li{
   margin: 0.5rem 0
@@ -186,7 +186,7 @@ a{
 }
 #sub-text{
   margin: 0.4rem 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 #img-div{
@@ -237,7 +237,7 @@ a{
 }
 #hashtags li{
   margin: 0.1rem 0.3rem;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 500;
   color:rgb(62, 95, 139);
 }
@@ -371,7 +371,7 @@ a{
 }
 #about-p, #fun-fact{
   margin: 0.5rem 25px 1.3rem;
-  line-height: 1.75;
+  line-height: 1.9;
   font-size: var(--normal-font-size);
   color: var(--text-black);
   border-radius: 15px;
@@ -380,6 +380,13 @@ a{
   align-items: center;
   flex-direction: column;
   background-color: white;
+}
+.emphasis{
+  background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
 }
 #about-p p{
   padding: 10px 20px;
@@ -739,18 +746,8 @@ a{
       width: 12.5rem;
       height: 12.5rem;
   }
-  #hashtags li{
-      font-size: 0.8rem;
-  }
   #hashtags{
       margin: 0.3rem
-  }
-  #main-text{
-      margin-top:0.6rem;
-      font-size: 1.6rem;
-  }
-  #sub-text{
-      font-size: 1.1rem
   }
   .links .bx{
       font-size: 1.4rem;
@@ -758,9 +755,6 @@ a{
   .links{
       padding: 0;
       margin: 12px
-  }
-  #arrow-icon{
-      padding-bottom: 4rem
   }
 }
 @media (min-height: 950px) {
@@ -969,12 +963,6 @@ a{
   .skills-detail h4{
       font-size: 1.2rem;
   }
-  /* ==================================== Projects Section =================================== */
-  /* .project-img img{
-      width: ;
-      height: 415px;
-      margin-top: 2rem;
-  } */
   /* -------------------- contact ------------------ */
   #contact-content{
       width: 70%;
