@@ -16,7 +16,7 @@
   /* text color */
   --text-black: black;
   --text-dark: #3F3846;
-  --text-medium: #5E556B;
+  --text-medium: #2c7ea4;
   --text-light: #8D8894;
 
   /* font size */
@@ -478,92 +478,84 @@ a{
     transform: translatey(-10px);
   }
 }
+.skill-img{
+  width: 5rem;
+  height:5rem;
+  object-fit: contain;
+}
 .js{
-  background-color: #E7E6F7;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .jquery{
-  background-color: #DED9E2;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .react{
-  background-color: #E3D0D8;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .next{
-  background-color: #FEF9FF;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .tailwind{
-  background-color: #AEA3B0;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .html{
-  background-color: #B8BACF;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .css{
-  background-color: #EAE1DF;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .python{
-  background-color: #79ADDC;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .django{
-  background-color: #A1B5D8;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .node{
-  background-color: #D8E1E9;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .mongo{
-  background-color: #B3C5D7;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .express{
-  background-color: #B3C5D7;
   animation-name: float2;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .sql{
-  background-color: #7698B3;
   animation-name: float1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
