@@ -21,11 +21,11 @@ const Nav = () =>{
                             <i class='bx bx-x-circle bx-sm' ></i>
                         </div>
                         <ul class="nav-list">
-                            <li class="nav-item" id="nav-home"><Link to={'/'}><h4>Home</h4></Link></li>
-                            <li class="nav-item" id="nav-about"><Link to={'/about'}><h4>About</h4></Link></li>
-                            <li class="nav-item" id="nav-skills"><Link to={'/skills'}><h4>Skills</h4></Link></li>
-                            <li class="nav-item" id="nav-project"><Link to={'/projects'}><h4>About</h4></Link></li>
-                            <li class="nav-item" id="nav-contact"><Link to={'/contact'}><h4>Contact</h4></Link></li>
+                            <li onClick={toggleNav} class="nav-item" id="nav-home"><a href="#Home">HOME</a></li>
+                            <li onClick={toggleNav} class="nav-item" id="nav-about"><a href="#About">ABOUT</a></li>
+                            <li onClick={toggleNav} class="nav-item" id="nav-skills"><a href="#Skills">SKILLS</a></li>
+                            <li onClick={toggleNav} class="nav-item" id="nav-project"><a href="#Projects">PROJECTS</a></li>
+                            <li onClick={toggleNav} class="nav-item" id="nav-contact"><a href="#Contact">CONTACT ME</a></li>
                         </ul>
                     </div>
                     : null

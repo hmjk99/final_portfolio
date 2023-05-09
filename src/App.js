@@ -1,16 +1,22 @@
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
 import './App.css';
 import 'boxicons/css/boxicons.min.css';
 import Home from './components/Home';
 import Nav from './components/Nav';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <>
       <Nav/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-      </Routes>
+      <BrowserRouter>
+        <Home/>
+        <About/>
+        <Skills/>
+        <Projects/>
+      </BrowserRouter>
     </>
   );
 }

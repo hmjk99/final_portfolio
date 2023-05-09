@@ -1,5 +1,5 @@
 import cloud from '../img/cloud_2601-fe0f.png'
-import pic from '../img/IMG_7340-removebg-preview (1).png'
+
 const Home = () =>{
     return(
         <>
