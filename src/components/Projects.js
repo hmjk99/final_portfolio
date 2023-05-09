@@ -16,8 +16,8 @@ const Projects = () =>{
                 <div className="project-img" id="img1">
                     <img src={img1} alt=""/>
                     <div className="link-popup">
-                        <a href="https://memo-app-p2.herokuapp.com/memo" target="_blank"><i className='project-icon bx bx-desktop'></i></a>
-                        <a href="https://github.com/hmjk99/Memo-App" target="_blank"><i className='project-icon bx bxl-github'></i></a>
+                        <a href="https://memo-app-p2.herokuapp.com/memo" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                        <a href="https://github.com/hmjk99/Memo-App" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="project-descrip">
@@ -33,8 +33,8 @@ const Projects = () =>{
                 <div className="project-img" id="img2">
                     <img src={img2} alt=""/>
                     <div className="link-popup">
-                        <a href="https://stackbook.herokuapp.com/login" target="_blank"><i className='project-icon bx bx-desktop'></i></a>
-                        <a href="https://github.com/hmjk99/Social_Media_Front" target="_blank"><i className='project-icon bx bxl-github'></i></a>
+                        <a href="https://stackbook.herokuapp.com/login" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                        <a href="https://github.com/hmjk99/Social_Media_Front" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="project-descrip">
@@ -52,8 +52,8 @@ const Projects = () =>{
                 <div className="project-img" id="img3">
                     <img src={img3} alt=""/>
                     <div className="link-popup">
-                        <a href="https://cookbook-front.herokuapp.com/" target="_blank"><i className='project-icon bx bx-desktop'></i></a>
-                        <a href="https://github.com/hmjk99/CookBook_Front" target="_blank"><i className='project-icon bx bxl-github'></i></a>
+                        <a href="https://cookbook-front.herokuapp.com/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                        <a href="https://github.com/hmjk99/CookBook_Front" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="project-descrip">
@@ -69,8 +69,8 @@ const Projects = () =>{
                 <div className="project-img" id="img4">
                     <img src={img4} alt=""/>
                     <div className="link-popup">
-                        <a href="https://ecommerce-admin-hmjk99.vercel.app/" target="_blank"><i className='project-icon bx bx-desktop'></i></a>
-                        <a href="https://github.com/hmjk99/pineapple-admin" target="_blank"><i className='project-icon bx bxl-github'></i></a>
+                        <a href="https://ecommerce-admin-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                        <a href="https://github.com/hmjk99/pineapple-admin" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="project-descrip">
@@ -86,8 +86,8 @@ const Projects = () =>{
                 <div className="project-img" id="img5">
                     <img src={img5} alt=""/>
                     <div className="link-popup">
-                        <a href="https://ecommerce-front-hmjk99.vercel.app/" target="_blank"><i className='project-icon bx bx-desktop'></i></a>
-                        <a href="https://github.com/hmjk99/pineapple-front" target="_blank"><i className='project-icon bx bxl-github'></i></a>
+                        <a href="https://ecommerce-front-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                        <a href="https://github.com/hmjk99/pineapple-front" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="project-descrip">

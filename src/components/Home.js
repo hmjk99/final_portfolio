@@ -33,8 +33,8 @@ const Home = () =>{
                     </div>
                 </div>
                 <ul className="links">
-                    <li><a href="https://github.com/hmjk99" target="_blank"><i className='icon bx bxl-github bx-tada-hover'></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/moonjookim/" target="_blank"><i className='icon bx bxl-linkedin bx-tada-hover'></i></a></li>
+                    <li><a href="https://github.com/hmjk99" target="_blank" rel="noreferrer"><i className='icon bx bxl-github bx-tada-hover'></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/moonjookim/" target="_blank" rel="noreferrer"><i className='icon bx bxl-linkedin bx-tada-hover'></i></a></li>
                     <li><a href={resume} download><i className='icon bx bxs-download bx-tada-hover'></i></a></li>
                 </ul>
             </div>
