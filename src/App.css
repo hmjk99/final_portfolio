@@ -168,6 +168,17 @@ a{
   text-decoration: none;
 }
 /* ===================================== Home Section ========================================= */
+@keyframes float3 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-28px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
 .home-container{
   position: absolute;
   width:100%;
@@ -177,6 +188,11 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation-delay: 1500ms;
+  animation-name: float3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 #home-title{
   background: linear-gradient(to right, #1e9678, #645deb, #dd438d, #f07c24);
@@ -440,7 +456,6 @@ a{
   border: 2px solid var(--lighter-color);
 }
 .skills-icon{
-  margin-top: 15px;
   height: 40px;
 }
 .skills-heading{
@@ -469,7 +484,7 @@ a{
     transform: translatey(0px);
   }
   50% {
-    transform: translatey(-10px);
+    transform: translatey(-15px);
   }
   100% {
     transform: translatey(0px);
@@ -477,13 +492,13 @@ a{
 }
 @keyframes float2 {
   0% {
-    transform: translatey(-10px);
+    transform: translatey(-15px);
   }
   50% {
     transform: translatey(0px);
   }
   100% {
-    transform: translatey(-10px);
+    transform: translatey(-15px);
   }
 }
 .skill-img{

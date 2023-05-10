@@ -22,7 +22,6 @@ const Skills = () =>{
     }, [])
     return(
         <>
-        
          <section id="Skills">
             <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="linear" className="heading-top">
                 <h3 className="section-subtitle">My Expertise</h3>
