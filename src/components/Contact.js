@@ -9,7 +9,7 @@ const Contact = () =>{
     };
     return(
         <>
-         <section id="Contact">
+         <section data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear" id="Contact">
             <div className="heading-top">
                 <h1 className="section-title">Contact Me</h1>
             </div>

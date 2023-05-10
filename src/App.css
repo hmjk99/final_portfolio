@@ -664,7 +664,7 @@ a{
 
 /* --------------------------------------------- Contact Section ----------------------------------------------- */
 #content-inside{
-  background-color: rgb(126, 162, 208);
+  background-color: white;
   border-radius: 10px;
   margin: 1.5rem 1.7rem 2rem;
   height: 20rem;
@@ -685,19 +685,19 @@ a{
 #contact-content h1{
   font-size: 1.15rem;
   margin: 1rem 1.2rem;
-  color: white
+  color: rgb(74, 131, 206)
 }
 #contact-content h3{
   font-size: var(--small-font-size);
   margin: 0.5rem 1.2rem;
-  color: white;
+  color: rgb(61, 123, 203);
   width: 80%;
   font-weight: 500;
 }
 .contact-button{
   margin: 0.8rem 1.2rem;
-  background-color: white;
-  color:rgb(126, 162, 208);
+  background-color: rgb(126, 162, 208);
+  color:white;
   font-weight: 600;
   font-size:var(--h3-font-size);
   height: 3.5rem;

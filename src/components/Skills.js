@@ -11,19 +11,25 @@ import mongo from '../img/mongodb-icon.svg'
 import sql from '../img/postgresql.svg'
 import node from '../img/nodejs-icon.svg'
 import express from '../img/express.svg'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 
 const Skills = () =>{
+    useEffect(()=>{
+        Aos.init()
+    }, [])
     return(
         <>
         
          <section id="Skills">
-            <div className="heading-top">
+            <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="linear" className="heading-top">
                 <h3 className="section-subtitle">My Expertise</h3>
                 <h1 className="section-title">Skills</h1>
             </div>
             {/* <!---------------------frontend skills----------------------> */}
-            <div className="skills-content">
+            <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="linear" className="skills-content">
                 <div className="skills-header front">
                     <i className='icon skills-icon bx bx-code-curly bx-md'></i>
                     <h1 className="skills-heading">Frontend Development</h1>
@@ -54,7 +60,7 @@ const Skills = () =>{
             </div>
                
             {/* <!---------------------backend skills----------------------> */}
-            <div class="skills-content" id="skills-content-back">
+            <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="linear" class="skills-content" id="skills-content-back">
                 <div class="skills-header back">
                     <i class='icon skills-icon bx bx-desktop bx-md'></i>
                     <h1 class="skills-heading">Backend Development</h1>
