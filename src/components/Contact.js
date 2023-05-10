@@ -1,4 +1,5 @@
 import img from '../img/IMG_7340-removebg-preview (1).png'
+import Cloud from './Cloud';
 
 const Contact = () =>{
     const emailAddress = 'hmjk99@gmail.com';

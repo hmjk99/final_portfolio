@@ -247,7 +247,7 @@ a{
   overflow: hidden;
   width: 100%;
   height:100vh;
-  z-index: -100%;
+  z-index: -100;
 }
 .clouds{
   position: relative;
@@ -311,12 +311,15 @@ a{
 }
 .cloud-end3{
   position: absolute;
-  left: 20rem;
   top: 18rem;
 }
 .cloud-end4{
   position: absolute;
   top: 12rem;
+}
+.cloud-end5{
+  position: absolute;
+  top: 44rem;
 }
 .speed1{
   animation: animateClouds 15s linear infinite;
@@ -349,7 +352,9 @@ a{
 }
 /* ========================================== About Section ========================================== */
 #About{
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 100%;
+  background-color: rgb(251, 251, 251);
+  padding-bottom: 2rem;
 }
 .about-content{
   display: flex;
@@ -358,6 +363,8 @@ a{
   text-align: center;
   justify-content: center;
   height: 100%;
+  position: relative;
+  top: 5%
 }
 #intro{
   color:var(--text-medium);
@@ -375,8 +382,8 @@ a{
   line-height: 1.9;
   font-size: var(--normal-font-size);
   color: var(--text-black);
-  border-radius: 15px;
-  border: 2px solid var(--lighter-color);
+  border-radius: 55px;
+  border: 3px solid var(--lighter-color);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -417,25 +424,23 @@ a{
   margin: 0 25px 1.5rem
 }
 /* ========================================== Skills Section ========================================== */
-#Skills{
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
 .skills-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 50px;
   margin: 2rem 1rem;
   padding: 1rem;
   background-color: white;
   border: 2px solid var(--lighter-color);
 }
 .skills-icon{
+  margin-top: 15px;
   height: 40px;
 }
 .skills-heading{
-  margin: 5px 20px 0 15px;
+  margin: 20px 20px 0 15px;
   font-size: 1.2rem;
   color: var(--text-medium);
 }
@@ -563,13 +568,13 @@ a{
 }
 /* ================================================== Projects Section =================================================== */
 #Projects{
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(251, 251, 251);
 }
 .project-img img{
   position: relative;
@@ -577,7 +582,7 @@ a{
   height: 14rem;
   object-fit: cover;
   border-radius: .5rem;
-  border: 3px solid white;
+  border: 3px solid var(--lighter-color);
 }
 .project-img{
   position: relative;
@@ -596,7 +601,7 @@ a{
   border-radius: 15px;
   color: var(--text-black);
   padding: 1rem;
-  border: 2px solid var(--lighter-color);
+  border: 3px solid var(--lighter-color);
 }
 .project-descrip h3{
   margin: 0.5rem;
@@ -982,13 +987,13 @@ a{
       width: 50rem;
       padding: 0
   }
-  #Home, #About, #Skills, #Projects{
+  #Home, #Skills, .projects-whole{
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 80rem;
   }
-  #Home{
+  #Home, #About{
     width: 100%
   }
   #root{

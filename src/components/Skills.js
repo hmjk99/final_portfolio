@@ -16,6 +16,7 @@ import express from '../img/express.svg'
 const Skills = () =>{
     return(
         <>
+        
          <section id="Skills">
             <div className="heading-top">
                 <h3 className="section-subtitle">My Expertise</h3>
