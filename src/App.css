@@ -93,6 +93,10 @@ body{
   cursor: pointer;
   font-weight: 500;
 }
+.nav-item.active a {
+  font-weight: 600;
+  border-bottom: 4px solid white;
+}
 .nav-list li{
   margin: 0.5rem 0
 }
