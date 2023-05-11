@@ -8,9 +8,9 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 
 const Projects = () =>{
-    useEffect(()=>{
-        Aos.init()
-    }, [])
+    // useEffect(()=>{
+    //     Aos.init()
+    // }, [])
     return(
         <>
         <section id="Projects">

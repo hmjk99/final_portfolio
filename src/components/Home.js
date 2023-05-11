@@ -5,14 +5,14 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 
 const Home = () =>{
-    useEffect(()=>{
-        Aos.init()
-    }, [])
+    // useEffect(()=>{
+    //     Aos.init()
+    // }, [])
     return(
         <>
         <section id="Home">
             <Cloud/>
-            <div data-aos="zoom-in-down" data-aos-duration="1500" data-aos-easing="ease-out-cubic" className="home-container">
+            <div data-aos="zoom-in-down" data-aos-duration="2000" data-aos-easing="ease-out-cubic" className="home-container">
                 <div id="home-main">
                     <div id="home-right">
                         <h3 className="text first-text" id="sub-text">I'm Moonjoo, <br/> A <span id="home-title">Software Developer</span></h3>
