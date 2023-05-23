@@ -3,6 +3,7 @@ import img2 from '../img/Screenshot 2023-04-19 at 12.23.21 AM.png'
 import img3 from '../img/Screenshot 2023-04-19 at 12.18.28 AM.png'
 import img4 from '../img/Screenshot 2023-05-01 at 9.09.52 PM.png'
 import img5 from '../img/Screenshot 2023-05-01 at 9.10.12 PM.png'
+import img6 from '../img/Screenshot 2023-05-23 at 4.52.46 PM.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
@@ -20,21 +21,54 @@ const Projects = () =>{
                     <h1 className="section-title">Projects</h1>
                 </div>
                 <div id="projects-content">
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img1">
-                        <img src={img1} alt=""/>
+                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img4">
+                        <img src={img4} alt=""/>
                         <div className="link-popup">
-                            <a href="https://memo-app-p2.herokuapp.com/memo" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
-                            <a href="https://github.com/hmjk99/Memo-App" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
+                            <a href="https://ecommerce-admin-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                            <a href="https://github.com/hmjk99/pineapple-admin" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                         </div>
                     </div>
                     <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
-                        <h3>Memo-Pad</h3>
-                        <p>Memo-Pad is a responsive full-stack application that allows users to create, delet, and edit their notes. The design inspiration was from the application <i>Notion</i> and took a mobile-first approach.</p>
+                        <h3>Pineapple-Admin</h3>
+                        <p>Pineapple-admin is a full-stack application that lets the admin login with their Google account and perform full CRUD functionality with products for the ecommerce website (Pineapple-Front).</p>
                         <div className="project-skills">
-                            <h5>JavaScript</h5>
-                            <h5>Express.js</h5>
-                            <h5>Node.js</h5>
+                            <h5>Nextjs</h5>
+                            <h5>NextAuth</h5>
                             <h5>MongoDB</h5>
+                            <h5>Amazon Web Service</h5>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img5">
+                        <img src={img5} alt=""/>
+                        <div className="link-popup">
+                            <a href="https://ecommerce-front-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                            <a href="https://github.com/hmjk99/pineapple-front" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
+                        <h3>Pineapple-Front</h3>
+                        <p>Pineapple-Front is an Apple clone ecommerce application using the data the admin uploaded from the Pineapple-Admin website. The application lets users view, add to cart, and purchase products through Stripe.</p>
+                        <div className="project-skills">
+                            <h5>Nextjs</h5>
+                            <h5>MongoDB</h5>
+                            <h5>Stripe</h5>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img5">
+                        <img src={img6} alt=""/>
+                        <div className="link-popup">
+                            <a href="https://utube-clone-app.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                            <a href="https://github.com/hmjk99/u_tube" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
+                        <h3>U-tube Clone</h3>
+                        <p>U-tube is a Youtube clone streaming application created by using Rapid API. The application renders the data from the API and lets users search channels and videos. The application is responsive and was styled using Material UI.</p>
+                        <div className="project-skills">
+                            <h5>React.js</h5>
+                            <h5>Rapid API</h5>
+                            <h5>Material UI</h5>
+                            <h5>React-router</h5>
                         </div>
                     </div>
                     <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img2">
@@ -73,37 +107,21 @@ const Projects = () =>{
                             <h5>Postgresql</h5>
                         </div>
                     </div>
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img4">
-                        <img src={img4} alt=""/>
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img1">
+                        <img src={img1} alt=""/>
                         <div className="link-popup">
-                            <a href="https://ecommerce-admin-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
-                            <a href="https://github.com/hmjk99/pineapple-admin" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
+                            <a href="https://memo-app-p2.herokuapp.com/memo" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                            <a href="https://github.com/hmjk99/Memo-App" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
                         </div>
                     </div>
                     <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
-                        <h3>Pineapple-Admin</h3>
-                        <p>Pineapple-admin is a full-stack application that lets the admin login with their Google account and perform full CRUD functionality with products for the ecommerce website (Pineapple-Front).</p>
+                        <h3>Memo-Pad</h3>
+                        <p>Memo-Pad is a responsive full-stack application that allows users to create, delet, and edit their notes. The design inspiration was from the application <i>Notion</i> and took a mobile-first approach.</p>
                         <div className="project-skills">
-                            <h5>Nextjs</h5>
-                            <h5>NextAuth</h5>
+                            <h5>JavaScript</h5>
+                            <h5>Express.js</h5>
+                            <h5>Node.js</h5>
                             <h5>MongoDB</h5>
-                            <h5>Amazon Web Service</h5>
-                        </div>
-                    </div>
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img5">
-                        <img src={img5} alt=""/>
-                        <div className="link-popup">
-                            <a href="https://ecommerce-front-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
-                            <a href="https://github.com/hmjk99/pineapple-front" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
-                        </div>
-                    </div>
-                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
-                        <h3>Pineapple-Front</h3>
-                        <p>Pineapple-Front is an Apple clone ecommerce application using the data the admin uploaded from the Pineapple-Admin website. The application lets users view, add to cart, and purchase products through Stripe.</p>
-                        <div className="project-skills">
-                            <h5>Nextjs</h5>
-                            <h5>MongoDB</h5>
-                            <h5>Stripe</h5>
                         </div>
                     </div>
                 </div>
