@@ -4,6 +4,7 @@ import img3 from '../img/Screenshot 2023-04-19 at 12.18.28 AM.png'
 import img4 from '../img/Screenshot 2023-05-01 at 9.09.52 PM.png'
 import img5 from '../img/Screenshot 2023-05-01 at 9.10.12 PM.png'
 import img6 from '../img/Screenshot 2023-05-23 at 4.52.46 PM.png'
+import img7 from '../img/Screenshot 2023-06-07 at 9.06.55 PM.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
@@ -21,7 +22,25 @@ const Projects = () =>{
                     <h1 className="section-title">Projects</h1>
                 </div>
                 <div id="projects-content">
-                <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img4">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img">
+                        <img src={img7} alt=""/>
+                        <div className="link-popup">
+                            <a href="https://summar-ai.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
+                            <a href="https://github.com/hmjk99/summar-ai" target="_blank" rel="noreferrer"><i className='project-icon bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
+                        <h3>Summar-AI</h3>
+                        <p>Summar-ai is an AI article summarizer that transforms lengthy articles into clear and concise summaries. OpenAI's ChatGPT model API from Rapid API was used. Some features are copy to clipboard functionality and displaying loader and error messages for best user experience.</p>
+                        <div className="project-skills">
+                            <h5>React.js</h5>
+                            <h5>Tailwind CSS</h5>
+                            <h5>Redux</h5>
+                            <h5>Vite</h5>
+                            <h5>Rapid API</h5>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img4">
                         <img src={img4} alt=""/>
                         <div className="link-popup">
                             <a href="https://ecommerce-admin-hmjk99.vercel.app/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
@@ -30,7 +49,7 @@ const Projects = () =>{
                     </div>
                     <div data-aos="flip-right" data-aos-duration="1000" data-aos-easing="linear" className="project-descrip">
                         <h3>Pineapple-Admin</h3>
-                        <p>Pineapple-admin is a full-stack application that lets the admin login with their Google account and perform full CRUD functionality with products for the ecommerce website (Pineapple-Front).</p>
+                        <p>Pineapple-admin is a full-stack application that allows the admin login with their Google account and perform full CRUD functionality with products for the ecommerce website (Pineapple-Front).</p>
                         <div className="project-skills">
                             <h5>Nextjs</h5>
                             <h5>NextAuth</h5>
@@ -71,7 +90,7 @@ const Projects = () =>{
                             <h5>React-router</h5>
                         </div>
                     </div>
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img2">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img">
                         <img src={img2} alt=""/>
                         <div className="link-popup">
                             <a href="https://stackbook.herokuapp.com/login" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
@@ -90,7 +109,7 @@ const Projects = () =>{
                             <h5>Heroku</h5>
                         </div>
                     </div>
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img">
                         <img src={img3} alt=""/>
                         <div className="link-popup">
                             <a href="https://cookbook-front.herokuapp.com/" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
@@ -107,7 +126,7 @@ const Projects = () =>{
                             <h5>Postgresql</h5>
                         </div>
                     </div>
-                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img" id="img1">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-easing="linear" className="project-img">
                         <img src={img1} alt=""/>
                         <div className="link-popup">
                             <a href="https://memo-app-p2.herokuapp.com/memo" target="_blank" rel="noreferrer"><i className='project-icon bx bx-desktop'></i></a>
