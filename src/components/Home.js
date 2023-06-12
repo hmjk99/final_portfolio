@@ -1,13 +1,8 @@
 import Cloud from './Cloud';
-import resume from '../img/Final_Resume.pdf'
-import Aos from 'aos';
+import Resume from '../img/Resume (Final).pdf'
 import 'aos/dist/aos.css'
-import { useEffect } from 'react';
 
 const Home = () =>{
-    // useEffect(()=>{
-    //     Aos.init()
-    // }, [])
     return(
         <>
         <section id="Home">
@@ -27,7 +22,7 @@ const Home = () =>{
                 <ul className="links">
                     <li><a href="https://github.com/hmjk99" target="_blank" rel="noreferrer"><i className='icon bx bxl-github bx-tada-hover'></i></a></li>
                     <li><a href="https://www.linkedin.com/in/moonjookim/" target="_blank" rel="noreferrer"><i className='icon bx bxl-linkedin bx-tada-hover'></i></a></li>
-                    <li><a href={resume} download><i className='icon bx bxs-download bx-tada-hover'></i></a></li>
+                    <li><a href={Resume} download><i className='icon bx bxs-download bx-tada-hover'></i></a></li>
                 </ul>
             </div>
         </section>
